@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class IconContent extends StatelessWidget {
 
-IconContent({required this.icon,required this.label});
+IconContent({required this.icon,required this.label,});
 
   final IconData icon;
   final String label;
@@ -19,7 +19,7 @@ IconContent({required this.icon,required this.label});
         Icon(
           icon,
           size: 80.0,
-
+          color: Colors.red,
         ),
         const SizedBox(
           height: 15.0,
